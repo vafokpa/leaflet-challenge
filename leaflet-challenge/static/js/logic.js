@@ -105,39 +105,8 @@ function createMap(earthquakes) {
   };
   legend.addTo(map); 
 
-// here //
-
 
   }
-
-
-
-
-
-
-////////////////////// Failed Attempt ///////////////////////////
-
-
-// var layers = ['0-1', '1-2', '2-3', '3-4', '4-5', '5+'];
-// var colors = ["#99ff99","#00e600", "#ffbf66", "#ff9300", "#ff8080", "#ff0000"];
-
-// for (i = 0; i < layers.length; i++) {
-//     var layer = layers[i];
-//     var color = colors[i];
-//     var item = document.createElement('div');
-//     var key = document.createElement('span');
-//     key.className = 'legend-key';
-//     key.style.backgroundColor = color;
-  
-//     var value = document.createElement('span');
-//     value.innerHTML = layer;
-//     item.appendChild(key);
-//     item.appendChild(value);
-//     legend.appendChild(item);
-//   };
-
-
-
 
 
 
